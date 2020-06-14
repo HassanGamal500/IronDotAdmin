@@ -1,0 +1,211 @@
+
+
+/* Dashboard */
+
+.content-wrapper {
+    padding: 1.75rem 2.25rem;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    color: #000000;
+}
+
+.card .customize {
+    padding: 20px 20px 0 22px !important;
+}
+
+.navbar {
+    background: #5d7087;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand img {
+    height: 40px;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
+    width: calc(80px - 50px);
+    height: 30px;
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile .nav-link .nav-profile-text {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-left: -0.5rem !important;
+}
+
+.navbar .navbar-menu-wrapper {
+    color: #00b147;
+}
+
+.sidebar .nav .nav-item.active > .nav-link i {
+    color: #00b147b8;
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-icon {
+    color: #fff;
+}
+
+.sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #fff;
+}
+
+/*.bg-gradient-primary {
+    background: -webkit-gradient(linear, left top, right top, from(#90caf9), color-stop(99%, #047edf));
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}*/
+
+.navbar .navbar-brand-wrapper {
+    background: linear-gradient(to right, #0f5992, #94abbd);
+}
+
+.sidebar .nav .nav-item.active {
+    background: linear-gradient(to right, #1f1f1f, #8cacc5);
+}
+
+.sidebar {
+    background: linear-gradient(to right, #0f5992, #94abbd);
+}
+
+.navbar .navbar-menu-wrapper {
+    color: #fff;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+.sidebar .nav .nav-item:hover {
+    background: linear-gradient(to right, #0f5992, #94abbd);
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-toggle:after {
+    color: #ffffff;
+}
+
+.text-success {
+    color: #198ae3 !important;
+}
+
+.sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.nav-profile) > .nav-link {
+    color: #ffffff;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    color: #ffffff;
+}
+
+/*.btn-primary {
+    color: #fff;
+    background-color: #03b349;
+    border-color: #03b349;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #03b349;
+    border-color: #03b349;
+}
+
+.btn-success {
+    color: #212529;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:not(.btn-light):focus, .btn-primary:not(.btn-light):active {
+    background: #03b349;
+    border-color: #03b349;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background: #03b349;
+    border-color: #03b349;
+}*/
+
+.sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #198ae3;
+    background: transparent;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link:hover {
+    color: #198ae3;
+}
+
+.page-item.active .page-link {
+    background-color: #04b34a;
+    border-color: #0db952;
+}
+
+/*.btn-gradient-primary {
+    background: -webkit-gradient(linear, left top, right top, from(#90caf9), color-stop(99%, #047edf));
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}*/
+
+.sidebar .nav .nav-item .nav-link i.menu-arrow {
+    color: #ffffff;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link:before {
+    color: #ffffff;
+}
+
+/*.text-primary, .list-wrapper .completed .remove {
+    color: #03b349 !important;
+}*/
+
+.bg-gradient-takol {
+    background: -webkit-gradient(linear, left top, right top, from(#90caf9), color-stop(99%, #047edf));
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}
+
+.form-check .form-check-label input[type="radio"] + .input-helper:before {
+    border: solid #12b654;
+}
+
+.form-check .form-check-label input[type="radio"]:checked + .input-helper:before {
+    background: -webkit-gradient(linear, left top, right top, from(#90caf9), color-stop(99%, #047edf));
+    background: linear-gradient(to right, #90caf9, #047edf 99%);
+}
+
+.table th img, .table td img {
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 992px){
+    .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+        background: #5a87aa;
+    }
+
+    .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse, .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing {
+        background: #64696d;
+    }
+}
+
+/* portofolio */
+
+.portfolio-grid figure.effect-text-in p {
+    background: #5d7087;
+}
+
+.footer a {
+    color: #198ae3;
+}
+
+.pagination .page-item.active .page-link, .jsgrid .jsgrid-pager .page-item.active .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-page a, .pagination .page-item:hover .page-link, .jsgrid .jsgrid-pager .page-item:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover a, .pagination .page-item:focus .page-link, .jsgrid .jsgrid-pager .page-item:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus .page-link, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus a, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus a, .pagination .page-item:active .page-link, .jsgrid .jsgrid-pager .page-item:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:active .page-link, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active a, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-page:active a {
+    background: #198ae3;
+    border-color: #198ae3;
+    color: #ffffff;
+}
+
+.sidebar .nav .nav-item:hover {
+    background: linear-gradient(to right, #202020, #94abbd);
+}

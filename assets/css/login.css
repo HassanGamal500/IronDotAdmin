@@ -1,0 +1,33 @@
+
+/* login */
+
+.form-check .form-check-label input[type="checkbox"]:checked + .input-helper:before {
+    background: -webkit-gradient(linear, left top, right top, from(#2de878), to(#00b147));
+    background: linear-gradient(to right, #2de878, #00b147);
+
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:before {
+    border: solid #2ad81f;
+}
+.btn-gradient-primary {
+    background: -webkit-gradient(linear, left top, right top, from(#2de878), to(#00b147));
+    background: linear-gradient(to right, #2de878, #00b147);
+}
+
+.btn-gradient-primary:not([disabled]):not(.disabled):active, .btn-gradient-primary:not([disabled]):not(.disabled).active, .show > .btn-gradient-primary.dropdown-toggle {
+    background: -webkit-gradient(linear, left top, right top, from(#2de878), to(#00b147));
+    background: linear-gradient(to right, #2de878, #00b147);
+}
+
+.content-wrapper {
+    background: #4c9833;
+}
+
+.one {
+    width: 60px !important;
+}
+
+.two {
+    width: 200px !important;
+}
